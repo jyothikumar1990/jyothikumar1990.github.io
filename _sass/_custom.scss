@@ -175,5 +175,21 @@ h1{
                 url(/images/contact.jpg) no-repeat center center;
     background-size: cover;
     position: relative;
+
+    form{
+      margin-top: 100px;
+
+      input,textarea{
+        width: 35%;
+        background-color: transparent;
+        border: 0;
+        border-bottom: 2px solid white;
+        margin-bottom: 60px;
+        margin-left: 60px;
+      }
+        button{
+          margin-left: 60px;
+        }
+    }
   }
 }
