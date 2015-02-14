@@ -132,16 +132,16 @@ h1{
 
   #skills{
     min-height: 100vh;
-    background-color: gray;
-    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), 
-                url(/images/skills.jpg) no-repeat center center;
-    background-size: cover;
+    background-color: #fff;
+    // background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), 
+    //             url(/images/skills.jpg) no-repeat center center;
+    // background-size: cover;
     position: relative;
 
     .skill_logo{
       text-align: center;
       margin-top: 60px;
-      color: #fff;
+      color: #000;
       
       img{
         width: 200px;
@@ -153,10 +153,10 @@ h1{
 
   #portfolio{
     min-height: 100vh;
-    background-color: white;
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
-                url(/images/portfolio.jpg) no-repeat center center;
-    background-size: cover;
+    background-color: #fff;
+    // background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+    //             url(/images/portfolio.jpg) no-repeat center center;
+    // background-size: cover;
     position: relative;
     text-align: center;
     color: #fff;
@@ -170,10 +170,10 @@ h1{
 
   #contact{
     min-height: 100vh;
-    background-color: #62B370;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                url(/images/contact.jpg) no-repeat center center;
-    background-size: cover;
+    background-color: #fff;
+    // background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+    //             url(/images/contact.jpg) no-repeat center center;
+    // background-size: cover;
     position: relative;
 
     form{
