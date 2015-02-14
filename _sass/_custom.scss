@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Frijole', cursive;
+  font-family: cursive;
 }
 
 body{
@@ -110,7 +110,7 @@ h1{
 
       p {
         padding: 50px 0 0 0;
-        font-size: 1.5em;
+        font-size: 2em;
         line-height: 2em;
         color: #666;
         margin: 0 0;
@@ -132,7 +132,7 @@ h1{
 
   #skills{
     min-height: 100vh;
-    background-color: #fff;
+    background-color: #666;
     // background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), 
     //             url(/images/skills.jpg) no-repeat center center;
     // background-size: cover;
@@ -141,7 +141,7 @@ h1{
     .skill_logo{
       text-align: center;
       margin-top: 60px;
-      color: #000;
+      color: #fff;
       
       img{
         width: 200px;
@@ -153,7 +153,7 @@ h1{
 
   #portfolio{
     min-height: 100vh;
-    background-color: #fff;
+    background-color: #444;
     // background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
     //             url(/images/portfolio.jpg) no-repeat center center;
     // background-size: cover;
@@ -161,16 +161,19 @@ h1{
     text-align: center;
     color: #fff;
 
-    img{
-      width: 100%;
-      height: 250px;
+    #project-content{
       padding:20px 40px;
+      
+      img{
+        width: 100%;
+        height: 250px;
+      }
     }
   }
 
   #contact{
     min-height: 100vh;
-    background-color: #fff;
+    background-color: #222;
     // background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
     //             url(/images/contact.jpg) no-repeat center center;
     // background-size: cover;
@@ -178,17 +181,24 @@ h1{
 
     form{
       margin-top: 100px;
+      color: #fff;
 
       input,textarea{
         width: 35%;
         background-color: transparent;
         border: 0;
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid #fff;
         margin-bottom: 60px;
         margin-left: 60px;
+
+        &:focus{
+          // border: 2px solid #fff;
+          outline: 0;
+        }
       }
         button{
           margin-left: 60px;
+          color: #222;
         }
     }
   }
