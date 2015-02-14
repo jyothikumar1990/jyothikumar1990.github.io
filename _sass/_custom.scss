@@ -1,0 +1,195 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Frijole', cursive;
+}
+
+body{
+  background-image: url(/images/black-Linen.png);
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 50px;
+  color: #fff;
+}
+
+#left-content{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-y: auto;
+  position: fixed;
+  background-color:  transparent;
+
+  #profile{
+    text-align: center;
+  }
+
+  .profile-img {
+    margin-top: 50px;
+    width: 170px;
+    height: 180px;
+    border: 10px double #62B370;
+    border-radius: 50%;
+  }
+
+  h1 {
+    font-size: 1.75em;
+    color: #fff;
+  }
+
+  h2 {
+    font-weight: 300;
+    font-size: 1.3em;
+    color: #CCC;
+  }
+
+
+  .facebook{
+    width: 20px;
+  }
+}
+
+#sidebar{
+  margin-top: 70px;
+  font-size: 20px;
+  text-transform: uppercase;
+
+  ul{
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+  }
+
+  li{
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    line-height: 50px;
+  }
+
+  li a{
+    color: white;
+    padding-left: 70px;
+    border-radius: 0px;
+  }
+
+  li a:hover{
+    background-color: transparent;
+  }
+
+  li a:focus{
+    background-color: transparent;
+  }
+
+  .active{
+    border-left: 4px solid #fff;
+    background-color: transparent;
+  }
+}
+  
+
+#right-content{
+  float: right;
+  overflow-x:hidden;
+
+  #about{
+    min-height: 100vh;
+    background:linear-gradient( rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.85) ),
+    url(/images/about.jpg) no-repeat center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+
+    h2 {
+      font-size: 6em;
+      color: #666;
+      margin-top: 0;
+    }
+
+      p {
+        padding: 50px 0 0 0;
+        font-size: 1.5em;
+        line-height: 2em;
+        color: #666;
+        margin: 0 0;
+      }
+    
+    .container-content{
+      width:80%;
+      margin: 0 auto;
+      padding: 100px 0;
+    } 
+
+    .green{
+      color:white;
+      background-color: #666;
+    }
+  } 
+
+  
+
+  #skills{
+    min-height: 100vh;
+    background-color: gray;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), 
+                url(/images/skills.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+
+    .skill_logo{
+      text-align: center;
+      margin-top: 60px;
+      color: #fff;
+      
+      img{
+        width: 200px;
+        height: 220px;
+      }
+    }  
+  }  
+
+
+  #portfolio{
+    min-height: 100vh;
+    background-color: white;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                url(/images/portfolio.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+
+    img{
+      width: 100%;
+      height: 250px;
+      padding:20px 40px;
+    }
+  }
+
+  #contact{
+    min-height: 100vh;
+    background-color: #62B370;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url(/images/contact.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+
+    form{
+      margin-top: 100px;
+
+      input,textarea{
+        width: 35%;
+        background-color: transparent;
+        border: 0;
+        border-bottom: 2px solid white;
+        margin-bottom: 60px;
+        margin-left: 60px;
+      }
+        button{
+          margin-left: 60px;
+        }
+    }
+  }
+}
