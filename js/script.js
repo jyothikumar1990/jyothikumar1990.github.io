@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	new WOW().init();
 	$('.scroll').on('click', function(e) {
 		e.preventDefault();
 		$('.active').removeClass('active');
