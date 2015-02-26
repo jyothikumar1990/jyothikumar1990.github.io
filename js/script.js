@@ -7,6 +7,6 @@ $(document).ready(function(){
 		var x = $(this).attr('href');
 		$('body').animate({
 			scrollTop: $(''+x+'').offset().top 
-		}, 1000);
+		}, 700);
 	});
 });
