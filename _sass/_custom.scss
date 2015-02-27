@@ -55,6 +55,8 @@ h1{
 
   .facebook{
     width: 20px;
+    margin: 5px;
+
   }
 }
 
@@ -220,6 +222,7 @@ h1{
               top: 50%;
               transform: translateY(-50%);
               color: transparent;
+              position: relative;
 
             }
 
@@ -240,6 +243,7 @@ h1{
     background-color: #fff;
     color:#666;
     font-size: 1.5em;
+    text-align: center;
     // background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
     //             url(/images/contact.jpg) no-repeat center center;
     // background-size: cover;
@@ -247,8 +251,10 @@ h1{
     
 
     form{
-      margin-top: 100px;
+      margin-top: 50px;
       color: #666;
+      text-align: center;
+      margin-bottom: 30px;
 
       input,textarea{
         width: 80%;
@@ -264,9 +270,13 @@ h1{
         }
       }
       button{
-        margin-left: 60px;
-        color: #222;
+        // margin-left: 60px;
+        color: #666;
       }
+    }
+
+    .sub_contact{
+      padding: 10px;
     }
   }
 }
