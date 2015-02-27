@@ -137,11 +137,12 @@ h1{
   #skills{
     min-height: 100vh;
     background-color: #fff;
+    color: #666;
     // background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), 
     //             url(/images/skills.jpg) no-repeat center center;
     // background-size: cover;
-    position: relative;
-    color: #666;
+    // position: relative;
+    
     
     .skill_logo{
       text-align: center;
@@ -164,19 +165,24 @@ h1{
   #portfolio{
     min-height: 100vh;
     background-color: rgb(218,223,225);
+    text-align: center;
+    color: #666;
     // background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
     //             url(/images/portfolio.jpg) no-repeat center center;
     // background-size: cover;
-    position: relative;
-    text-align: center;
-    color: #666;
+    // position: relative;
+    
 
     #project-content{
-      padding:20px 40px;
+      width: 350px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding-bottom: 20px;
       
       img{
         width: 100%;
         height: 250px;
+        padding-bottom: 20px;
       }
     }
   }
@@ -184,12 +190,13 @@ h1{
   #contact{
     min-height: 100vh;
     background-color: #fff;
+    color:#666;
+    font-size: 1.5em;
     // background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
     //             url(/images/contact.jpg) no-repeat center center;
     // background-size: cover;
-    position: relative;
-    color:#666;
-    font-size: 1.5em;
+    // position: relative;
+    
 
     form{
       margin-top: 100px;
